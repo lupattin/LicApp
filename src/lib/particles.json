@@ -1,0 +1,38 @@
+{
+  "background": {
+    "color": "#f0a092"
+  },
+  "particles": {
+    "color": { "value": "#fff" },
+    "move": {
+      "direction": "bottom",
+      "enable": true,
+      "outModes": "out",
+      "speed": 1
+    },
+    "number": {
+      "density": {
+        "enable": true,
+        "area": 3000
+      },
+      "value": 300
+    },
+    "opacity": {
+      "value": 0.7
+    },
+    "shape": {
+      "type": "circle"
+    },
+    "size": {
+      "value": 3
+    },
+    "wobble": {
+      "enable": true,
+      "distance": 10,
+      "speed": 0
+    },
+    "zIndex": {
+      "value": { "min": 0, "max": 100 }
+    }
+  }
+}
