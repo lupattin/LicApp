@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 
-
 export const HomeContainer = styled.div`
     display: flex;
     flex-direction: column;
@@ -17,4 +16,23 @@ export const HomeParagraphCointainer = styled.div`
     width: 50vw;
     height: 20vh;
     justify-content: space-around; 
+`
+export const HomeAboutMeContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw; 
+    height: 100vh;
+    text-align: center;
+`
+export const AboutMeContainer = styled.div`
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px; 
+    height: 100px;
+    z-index: 1;
 `
