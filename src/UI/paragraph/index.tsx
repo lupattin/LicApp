@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 function Paragraph() {
   return (
-    <h1 className="animate__animated animate__fadeInDown animate__delay-2s"> Solicita tu turno. </h1>
+    <h1 className="animate__animated animate__backInRight animate__delay-2s"> Solicita tu turno. </h1>
   );
 }
 

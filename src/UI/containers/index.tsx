@@ -32,7 +32,7 @@ export const AboutMeContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100px; 
-    height: 100px;
+    width: 1000px; 
+    height: 1000px;
     z-index: 1;
 `

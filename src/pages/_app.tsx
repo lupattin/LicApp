@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app'
 import { Lexend } from 'next/font/google'
 
-const roboto = Lexend({
+const lexend = Lexend({
   weight: ['400','700'],
   style:['normal'],
   subsets: ['latin'],
@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
 
   return (
-    <main className={roboto.className}>
+    <main className={lexend.className}>
       <Component {...pageProps} />
     </main>
   )

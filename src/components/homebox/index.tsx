@@ -5,12 +5,11 @@ import { ParagraphHomePage } from "@/UI/paragraph";
 import { ButtonHomePage } from "@/UI/button";
 
 
-
 export function HomeBox() {
 
   return (
     <div>
-      <TitleHomePage />
+      <TitleHomePage title={"Lic Agustin Scasso"} />
       <HomeParagraphCointainer>
         <ParagraphHomePage />
         <ButtonHomePage />
