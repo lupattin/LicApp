@@ -9,7 +9,7 @@ export function HomeBox() {
 
   return (
     <div>
-      <TitleHomePage title={"Lic Agustin Scasso"} />
+      <TitleHomePage className={"prueba"} title={"Lic Agustin Scasso"} />
       <HomeParagraphCointainer>
         <ParagraphHomePage />
         <ButtonHomePage />

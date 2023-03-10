@@ -1,17 +1,18 @@
 import "animate.css";
 import styled from "styled-components";
 
-function Title({title}) {
+function Title({className, title}:any) {
   return (
-    <h1 className="animate__animated animate__fadeInDown animate__delay-1s"> {title} </h1>
+    <h1 className={className}> {title} </h1>
   );
 }
-
-export const TitleHomePage = styled(Title)`
-    font-family: "Lexend", sans-serif;
-    font-size: 700;
-`;
-
-export const TitleAboutMe = styled(Title)`
-  font-size: 20px;
-`
+  export const TitleHomePage = styled(Title)`
+      color: red;
+      position: relative;
+      font-family: "Lexend", "sans-serif";
+      
+  `;
+  
+  export const TitleAboutMe = styled(Title)`
+    font-size: 20px;
+  `
