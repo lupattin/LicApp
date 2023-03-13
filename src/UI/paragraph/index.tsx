@@ -1,13 +1,21 @@
 import "animate.css";
 import styled from "styled-components";
 
-function Paragraph() {
+function Paragraph({className, text}) {
   return (
-    <h1 className="animate__animated animate__backInRight animate__delay-2s"> Solicita tu turno. </h1>
+    <h1 className={className}>{text}</h1>
   );
 }
 
 export const ParagraphHomePage = styled(Paragraph)`
-    font-family: "Lexend", sans-serif;
-    font-size: 400;
+   position: relative;
 `;
+
+export const ParagraphAboutMe = styled(Paragraph)`
+  font-size: 16px;
+  font-weight: 100;
+  color: white;
+  width: 100%;
+  text-align: start;
+
+`

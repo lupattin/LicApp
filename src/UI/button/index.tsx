@@ -1,14 +1,25 @@
 import "animate.css";
 import styled from "styled-components";
 
-function Button() {
+function Button({className, buttonText}) {
   return (
   
-    <button className="animate__animated animate__fadeInDown animate__delay-3s"> Aquí come</button> 
+    <button className={className}>{buttonText}</button> 
     
   );
 }
 
 export const ButtonHomePage = styled(Button)`
     
+`;
+
+export const ButtonAboutMe = styled(Button)`
+  background-color: yellow;
+  border: none;
+  border-radius: 20px;
+  width: 20%;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  
 `;
