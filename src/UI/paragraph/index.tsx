@@ -9,11 +9,12 @@ function Paragraph({className, text}) {
 
 export const ParagraphHomePage = styled(Paragraph)`
    position: relative;
+   font-weight: 700;
 `;
 
 export const ParagraphAboutMe = styled(Paragraph)`
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 700;
   color: white;
   width: 100%;
   text-align: start;

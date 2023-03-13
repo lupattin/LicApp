@@ -10,11 +10,15 @@ function Title({className, title}:any) {
       color: red;
       position: relative;
       font-family: "Lexend", "sans-serif";
+      font-weight: 700;
+      @media (max-width: 768px) {
+    width: 150px;
+  }
       
   `;
   
   export const TitleAboutMe = styled(Title)`
     font-size: 70px;
     text-align: start;
-   
+    font-weight: 700;
   `

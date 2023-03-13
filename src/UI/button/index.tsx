@@ -1,25 +1,26 @@
 import "animate.css";
 import styled from "styled-components";
+import Button from 'react-bootstrap/Button';
 
-function Button({className, buttonText}) {
+function Buttons({className, buttonText}:any) {
   return (
   
-    <button className={className}>{buttonText}</button> 
+    <Button size="lg" variant="light" className={className}>{buttonText}</Button> 
     
   );
 }
 
-export const ButtonHomePage = styled(Button)`
+export const ButtonHomePage = styled(Buttons)`
     
 `;
 
-export const ButtonAboutMe = styled(Button)`
+export const ButtonAboutMe = styled(Buttons)`
   background-color: yellow;
   border: none;
   border-radius: 20px;
   width: 20%;
   height: 30px;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   
 `;
