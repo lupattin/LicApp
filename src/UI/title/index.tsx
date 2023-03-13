@@ -14,7 +14,7 @@ function Title({className, title}:any) {
   `;
   
   export const TitleAboutMe = styled(Title)`
-    font-size: 70px;
+    font-size: 4vw;
     text-align: start;
    
   `

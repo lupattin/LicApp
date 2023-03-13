@@ -14,6 +14,9 @@ import { ISourceOptions } from "tsparticles-engine";
 import { useCallback } from "react";
 import particlesOptions from "../lib/particles.json";
 
+/*React Boostrap css*/
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 export default function Home() {
   const particlesInit = useCallback(async (engine: Engine) => {
     await loadFull(engine);
