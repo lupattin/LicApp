@@ -16,7 +16,7 @@ export function AboutMeBox() {
       </AboutMeTextContainer>
 
       <AboutMeImgContainer>
-        <AboutMeImg clasName="prueba4" ImgUrl="https://nutriloca.com/wp-content/uploads/2021/05/aboutme-10.png"></AboutMeImg>
+        <AboutMeImg className="prueba4" ImgUrl="https://nutriloca.com/wp-content/uploads/2021/05/aboutme-10.png"></AboutMeImg>
       </AboutMeImgContainer>
 
     </AboutMeContainer>
