@@ -14,13 +14,21 @@ export const ButtonHomePage = styled(Buttons)`
     
 `;
 
-export const ButtonAboutMe = styled(Buttons)`
-  background-color: yellow;
+export const ButtonAboutMe = styled(Buttons)`  
   border: none;
   border-radius: 20px;
-  width: 20%;
-  height: 30px;
-  font-size: 0.9vw;
+  width: 40%;
+  height: auto;
+  font-size: 1.2vw;
   font-weight: 600;
+ 
+
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    width: 150px;
+    height: auto;
+    overflow-wrap: break-word;
+
+  }
   
 `;

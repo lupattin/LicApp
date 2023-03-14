@@ -11,5 +11,8 @@ function Img ({className, ImgUrl}:any) {
 
 export const AboutMeImg = styled(Img)`
     width: 80%;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
 
 `;

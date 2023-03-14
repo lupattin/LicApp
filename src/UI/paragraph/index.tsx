@@ -13,12 +13,17 @@ export const ParagraphHomePage = styled(Paragraph)`
 `;
 
 export const ParagraphAboutMe = styled(Paragraph)`
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-weight: 100;
   color: white;
-  width: 100%;
+  width: 70%;
   text-align: start;
   font-family: "Lexend", "sans-serif"; 
+
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    width: 100%;
+  }
   
 
 `
