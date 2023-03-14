@@ -10,6 +10,9 @@ function Paragraph({className, text}:any) {
 export const ParagraphHomePage = styled(Paragraph)`
    position: relative;
    font-weight: 700;
+   @media (max-width: 768px) {
+          font-size:25px;
+        }
 `;
 
 export const ParagraphAboutMe = styled(Paragraph)`

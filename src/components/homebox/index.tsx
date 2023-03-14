@@ -7,13 +7,12 @@ import { ButtonHomePage } from "@/UI/button";
 
 
 export function HomeBox() {
-  const HomeText = 'Solicita tu turno'
   return (
     <div>
-      <TitleHomePage className={"prueba"} title={"Lic Agustin Scasso"} />
+      <TitleHomePage className={"animate__animated animate__fadeInDown animate__delay-1s "}  title={"Lic Agustina Scasso."} />
       <HomeParagraphCointainer>
-        <ParagraphHomePage className={"prueba3"} text={HomeText} />
-        <ButtonHomePage buttonText={"Haz Click Aquí"}/>
+        <ParagraphHomePage className={"animate__animated animate__fadeInUp animate__delay-2s"} text={'Comenza tu tratamiento.'} />
+        <ButtonHomePage className={"animate__animated animate__fadeInRight animate__delay-3s"} buttonText={"Haz Click Aquí"}/>
       </HomeParagraphCointainer>
     </div>
   );

@@ -6,18 +6,29 @@ export const HomeContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw; 
+    width: 90vw; 
     height: 100vh;
-    position: relative;
+    margin: auto;
 `
 export const HomeParagraphCointainer = styled.div`
     display: flex;
+    margin: auto;
     flex-direction: row ;
     align-items: center;
-    width: 50vw;
+    width: 60vw;
     height: 20vh;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
     position: relative;
+    
+    @media (max-width: 1440px) {
+          width:70vw
+        }
+    @media (max-width: 1024px) {
+          width:80vw
+        }
+    @media (max-width: 768px) {
+          width:90vw
+        }
 `
 export const HomeAboutMeContainer = styled.div`
     display: flex;

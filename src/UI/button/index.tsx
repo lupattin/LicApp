@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Button from 'react-bootstrap/Button';
 
 function Buttons({className, buttonText}:any) {
+  
   return (
   
     <Button size="lg" variant="light" className={className}>{buttonText}</Button> 
