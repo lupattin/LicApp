@@ -2,10 +2,12 @@
 /* UI */
 import { HomeContainer } from "@/UI/containers";
 import { HomeAboutMeContainer } from "@/UI/containers";
+import { FooterContainer } from "@/UI/containers";
 
 /* Components */
 import { HomeBox } from "@/components/homebox";
 import { AboutMeBox } from "@/components/aboutme";
+import { FooterBox } from "@/components/footer";
 
 /* TsParticules */
 import Particles from "react-particles";
@@ -32,6 +34,9 @@ export default function Home() {
       <HomeAboutMeContainer>
         <AboutMeBox></AboutMeBox>
       </HomeAboutMeContainer>
+      <FooterContainer>
+        <FooterBox></FooterBox>
+      </FooterContainer>
     </div>
   );
 }

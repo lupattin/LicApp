@@ -86,3 +86,10 @@ export const AboutMeTextContainer = styled.div `
 export const AboutMeImgContainer = styled.div `
     width: 50%;
 `
+
+export const FooterContainer = styled.div`
+
+`
+export const FooterImgContainer = styled.div`
+
+`

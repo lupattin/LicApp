@@ -1,6 +1,5 @@
 /*UI*/
 import { FooterContainer } from "@/UI/containers"
-import { TitleFooter } from "@/UI/title"
 import { FooterImgLogo } from "@/UI/img"
 import { FooterImgContainer } from "@/UI/containers"
 import { FooterList } from "@/UI/list" 

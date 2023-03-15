@@ -2,6 +2,7 @@ import "animate.css";
 import styled from "styled-components";
 
 
+
 function Img ({className, ImgUrl}:any) {
 
   return (
@@ -16,3 +17,7 @@ export const AboutMeImg = styled(Img)`
     }
 
 `;
+
+export const FooterImgLogo = styled(Img)`
+  
+`
