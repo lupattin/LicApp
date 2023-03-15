@@ -30,6 +30,12 @@ export const HomeParagraphCointainer = styled.div`
           width:90vw
         }
 `
+
+export const HomeLogoContainer = styled.div`
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+`
 export const HomeAboutMeContainer = styled.div`
     display: flex;
     flex-direction: column;
