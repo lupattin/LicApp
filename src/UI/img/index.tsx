@@ -19,5 +19,6 @@ export const AboutMeImg = styled(Img)`
 `;
 
 export const FooterImgLogo = styled(Img)`
-  
+    width: 200px;
+    height: 200px;
 `
