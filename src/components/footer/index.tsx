@@ -1,18 +1,30 @@
 /*UI*/
-import { FooterContainer } from "@/UI/containers"
+import { FooterContainer, FooterListContainer, SocialMediaFooterContainter } from "@/UI/containers"
 import { FooterImgLogo } from "@/UI/img"
 import { FooterImgContainer } from "@/UI/containers"
-import { FooterList } from "@/UI/list" 
+import { FooterList } from "@/UI/list"
 
+/*Logos*/
+import Image from "next/image";
+import facebookPic from '../../../public/facebook.svg'
+import linkdinPic from '../../../public/linkedin.svg'
+import whatsappPic from '../../../public/whatsapp.svg'
 
-export function FooterBox () {
+export function FooterBox() {
     return (
-        <FooterContainer>          
-            <FooterList className={'listado'}></FooterList>
+        <FooterContainer>
+            <FooterListContainer>
+                <FooterList className={'listado'}></FooterList>
+            </FooterListContainer>
+            
             <FooterImgContainer>
-            <FooterImgLogo className='footerImgLogo' ImgUrl='https://nutriloca.com/wp-content/uploads/2021/05/aboutme-10.png'></FooterImgLogo>
+                <FooterImgLogo className='footerImgLogo' ImgUrl='https://nutriloca.com/wp-content/uploads/2021/05/aboutme-10.png'></FooterImgLogo>
             </FooterImgContainer>
-            <div style={{color: "white", margin:"auto"}}>aca van los logos de redes sociales</div>
+            <SocialMediaFooterContainter>
+                <Image src={facebookPic} alt="Picture of Facebook" width={50} height={50}></Image>
+                <Image src={linkdinPic} alt="Picture of Linklin" width={50} height={50}></Image>
+                <Image src={whatsappPic} alt="Picture of Whatsapp" width={50} height={50}></Image>
+            </SocialMediaFooterContainter>
         </FooterContainer>
     )
 }
