@@ -20,7 +20,19 @@ export const FooterList = styled(List)`
     width: 50%;
     list-style: circle;
     text-decoration: underline;
+    font-size: 1rem;
     cursor: pointer;
+    @media (max-width: 728px) {
+       width: 100%;
+       
+
+    }
+    @media (max-width: 1024px) {
+       width: 80%;
+       font-size: 0.9rem;    
+    }
+       
+
     
 
 `
