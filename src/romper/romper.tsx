@@ -15,7 +15,14 @@ export function Rama() {
   
     return (
     
-        <div>Romper Rama</div>
+        <div>
+          <h1>
+            Rama el grande
+          </h1>
+          <h6>
+            Luca chiquito
+          </h6>
+        </div>
       
     );
   }
