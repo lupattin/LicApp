@@ -19,9 +19,9 @@ export function Rama() {
           <h1>
             Rama el grande
           </h1>
-          <h2>
+          <h6>
             Luca chiquito
-          </h2>
+          </h6>
         </div>
       
     );
