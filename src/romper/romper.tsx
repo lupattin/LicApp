@@ -3,7 +3,11 @@ export function Luca() {
   
     return (
     
-        <div>Romper Luca</div>
+        <div>
+            <h1>Luca es fachero</h1>
+
+            <h6> Rama es feo </h6>
+        </div>
       
     );
   }
