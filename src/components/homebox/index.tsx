@@ -1,6 +1,6 @@
 /* UI */
-import { HomeParagraphCointainer } from "@/UI/containers";
-import { HomeLogoContainer } from "@/UI/containers";
+import { HomeParagraphCointainer } from "@/UI/containers/homebox";
+import { HomeLogoContainer } from "@/UI/containers/homebox";
 import { TitleHomePage } from "@/UI/title";
 import { ParagraphHomePage } from "@/UI/paragraph";
 import { ButtonHomePage } from "@/UI/button";

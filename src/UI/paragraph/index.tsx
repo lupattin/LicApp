@@ -3,16 +3,23 @@ import styled from "styled-components";
 
 function Paragraph({className, text}:any) {
   return (
-    <h1 className={className}>{text}</h1>
+    <h3 className={className}>{text}</h3>
   );
 }
 
 export const ParagraphHomePage = styled(Paragraph)`
    position: relative;
    font-weight: 700;
+   margin: 0;
+
    @media (max-width: 768px) {
           font-size:25px;
         }
+
+   @media (max-width: 425px) {
+        font-size:16px;
+        
+      }
 `;
 
 export const ParagraphAboutMe = styled(Paragraph)`

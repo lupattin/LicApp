@@ -15,13 +15,18 @@ export const TitleHomePage = styled(Title)`
       text-align: center;
       width: 70vw;
       margin: auto;
-        @media (max-width: 768px) {
-          font-size:45px;
-        }
-        @media (max-width: 1024px) {
-          font-size:45px;
-          width:80vw
-        }
+
+      @media (max-width: 1024px) {
+        font-size:45px;
+        width:80vw
+      }
+      @media (max-width: 768px) {
+        font-size:40px;
+      }
+      @media (max-width: 425px) {
+        font-size:32px;
+        width: 90vw;
+      }
       
   `;
 

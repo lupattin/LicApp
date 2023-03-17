@@ -1,8 +1,8 @@
   
 /* UI */
-import { HomeContainer } from "@/UI/containers";
-import { HomeAboutMeContainer } from "@/UI/containers";
-import { FooterContainer } from "@/UI/containers";
+import { HomeContainer } from "@/UI/containers/homebox";
+import { HomeAboutMeContainer } from "@/UI/containers/aboutme";
+import { FooterContainer } from "@/UI/containers/footer";
 
 /* Components */
 import { HomeBox } from "@/components/homebox";

@@ -12,7 +12,17 @@ function Buttons({className, buttonText}:any) {
 }
 
 export const ButtonHomePage = styled(Buttons)`
-    
+    @media (max-width: 768px) {
+          width: 180px;
+          height: 40px;
+          font-size: 15px;
+        }
+    @media (max-width: 425px) {
+          font-size:16px;
+          width: 130px;
+          height: 32px;
+          font-size: 12px;
+      }
 `;
 
 export const ButtonAboutMe = styled(Buttons)`  

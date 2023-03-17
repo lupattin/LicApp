@@ -1,7 +1,7 @@
 /*UI*/
-import { FooterContainer, FooterListContainer, SocialMediaFooterContainter } from "@/UI/containers"
+import { FooterContainer, FooterListContainer, SocialMediaFooterContainter } from "@/UI/containers/footer"
 import { FooterImgLogo } from "@/UI/img"
-import { FooterImgContainer } from "@/UI/containers"
+import { FooterImgContainer } from "@/UI/containers/footer"
 import { FooterList } from "@/UI/list"
 
 /*Logos*/

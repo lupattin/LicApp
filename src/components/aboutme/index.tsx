@@ -1,10 +1,10 @@
-import { AboutMeContainer } from "@/UI/containers";
+import { AboutMeContainer } from "@/UI/containers/aboutme";
 import { TitleAboutMe } from "@/UI/title";
 import { ParagraphAboutMe } from "@/UI/paragraph";
 import { ButtonAboutMe } from "@/UI/button"
 import { AboutMeImg } from "@/UI/img/index"
-import { AboutMeTextContainer } from "@/UI/containers";
-import { AboutMeImgContainer } from "@/UI/containers"
+import { AboutMeTextContainer } from "@/UI/containers/aboutme";
+import { AboutMeImgContainer } from "@/UI/containers/aboutme"
 export function AboutMeBox() {
   const AboutMeText = 'Ya vamos a eso, pero antes me gustaría comentar que desde hace un tempo largo -algunos años quizás- me vienen conflictuando las presentaciones formales académicas institucionalizadas. Empecé a notarlo en el momento de ser presentada (o me tengo que presentar) en charlas, conferencias, reuniones, lo que sea'
   return (
