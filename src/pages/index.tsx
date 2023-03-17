@@ -8,6 +8,7 @@ import { FooterContainer } from "@/UI/containers/footer";
 import { HomeBox } from "@/components/homebox";
 import { AboutMeBox } from "@/components/aboutme";
 import { FooterBox } from "@/components/footer";
+import { Header } from "@/components/header";
 
 /* TsParticules */
 import Particles from "react-particles";
@@ -28,6 +29,7 @@ export default function Home() {
   return (
     <div>
       <Particles options={particlesOptions as ISourceOptions} init={particlesInit}/>
+      <Header/>
       <HomeContainer>
         <HomeBox></HomeBox>
       </HomeContainer>

@@ -21,7 +21,7 @@ export const HomeParagraphCointainer = styled.div`
     position: relative;
     
     @media (max-width: 1440px) {
-          width:60vw
+          width:50vw
         }
     @media (max-width: 1024px) {
           width:70vw
@@ -35,19 +35,19 @@ export const HomeParagraphCointainer = styled.div`
 `
 
 export const HomeLogoContainer = styled.div`
-    width: 50vw;
+    width: 40vw;
     margin: auto;
     position: relative;
     display: flex;
     justify-content: space-evenly;
 
     @media (max-width: 1440px) {
-          width:55vw
+          width:40vw
         }
     @media (max-width: 1024px) {
-          width:60vw
+          width:45vw
         }
     @media (max-width: 768px) {
-          width:65vw
+          width:50vw
         }
 `
