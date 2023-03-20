@@ -9,6 +9,9 @@ export const HomeContainer = styled.div`
     width: 90vw; 
     height: 100vh;
     margin: auto;
+    position: relative;
+    top: -130px;
+    
 `
 export const HomeParagraphCointainer = styled.div`
     display: flex;
