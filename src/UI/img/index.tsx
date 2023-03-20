@@ -21,4 +21,13 @@ export const AboutMeImg = styled(Img)`
 export const FooterImgLogo = styled(Img)`
     width: 200px;
     height: 200px;
+    @media (max-width: 425px) {        
+        width: 100%;
+        height: 100%;
+    }
+    @media (max-width: 728px) {        
+        width: 100%;
+        height: 70%;
+    }
+    
 `
