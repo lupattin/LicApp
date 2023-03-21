@@ -9,6 +9,7 @@ export const HeaderContainer = styled.div`
     top: -70px;
     position: relative;
     transition: transform 250ms;
+    z-index: 1;
     &:hover {
         transform: translateY(70px);
         
