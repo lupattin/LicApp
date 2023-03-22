@@ -5,8 +5,10 @@ import { ButtonAboutMe } from "@/UI/button"
 import { AboutMeImg } from "@/UI/img/index"
 import { AboutMeTextContainer } from "@/UI/containers/aboutme";
 import { AboutMeImgContainer } from "@/UI/containers/aboutme"
+import aboutMePhoto from '../../../public/aboutme-10.png'
 export function AboutMeBox() {
   const AboutMeText = 'Ya vamos a eso, pero antes me gustaría comentar que desde hace un tempo largo -algunos años quizás- me vienen conflictuando las presentaciones formales académicas institucionalizadas. Empecé a notarlo en el momento de ser presentada (o me tengo que presentar) en charlas, conferencias, reuniones, lo que sea'
+ 
   return (
     <AboutMeContainer>
       <AboutMeTextContainer>
@@ -16,7 +18,7 @@ export function AboutMeBox() {
       </AboutMeTextContainer>
 
       <AboutMeImgContainer>
-        <AboutMeImg className="prueba4" ImgUrl="https://nutriloca.com/wp-content/uploads/2021/05/aboutme-10.png"></AboutMeImg>
+        <AboutMeImg className="prueba4" ImgUrl={aboutMePhoto}></AboutMeImg>
       </AboutMeImgContainer>
 
     </AboutMeContainer>

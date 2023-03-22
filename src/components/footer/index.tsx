@@ -3,12 +3,16 @@ import { FooterContainer, FooterListContainer, SocialMediaFooterContainter } fro
 import { FooterImgLogo } from "@/UI/img"
 import { FooterImgContainer } from "@/UI/containers/footer"
 import { FooterList } from "@/UI/list"
+import { IgPic } from "@/UI/img"
+import { LinkedinPic } from "@/UI/img"
+import { WppPic } from "@/UI/img"
 
 /*Logos*/
-import Image from "next/image";
-import facebookPic from '../../../public/facebook.svg'
+import igPic from '../../../public/igsvg1.svg'
 import linkdinPic from '../../../public/linkedin.svg'
 import whatsappPic from '../../../public/whatsapp.svg'
+import footerImgPhoto from '../../../public/aboutme-10.png'
+
 
 export function FooterBox() {
     return (
@@ -18,12 +22,12 @@ export function FooterBox() {
             </FooterListContainer>
             
             <FooterImgContainer>
-                <FooterImgLogo className='footerImgLogo' ImgUrl='https://nutriloca.com/wp-content/uploads/2021/05/aboutme-10.png'></FooterImgLogo>
+                <FooterImgLogo className='footerImgLogo' ImgUrl={footerImgPhoto}></FooterImgLogo>
             </FooterImgContainer>
             <SocialMediaFooterContainter>
-                <Image src={facebookPic} alt="Picture of Facebook" width={50} height={50}></Image>
-                <Image src={linkdinPic} alt="Picture of Linklin" width={50} height={50}></Image>
-                <Image src={whatsappPic} alt="Picture of Whatsapp" width={50} height={50}></Image>
+                <IgPic src={igPic} alt="Picture of Facebook"  ImgUrl={igPic}></IgPic>
+                <LinkedinPic src={linkdinPic} alt="Picture of Linklin" ImgUrl={linkdinPic} ></LinkedinPic>
+                <WppPic src={whatsappPic} alt="Picture of Whatsapp" ImgUrl={whatsappPic}></WppPic>
             </SocialMediaFooterContainter>
         </FooterContainer>
     )
