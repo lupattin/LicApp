@@ -25,4 +25,7 @@ export function NavBarHeader({className}) {
   export const NavbarStyled = styled(NavBarHeader)`
             width: 340px;
             margin: 0;
+            @media screen and (max-width: 768px){
+                width: 240px;
+            }
 `

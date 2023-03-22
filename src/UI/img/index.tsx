@@ -1,13 +1,26 @@
 import "animate.css";
 import styled from "styled-components";
 import Image from "next/image";
+import Link from 'next/link'
 
 
 
 function Img({ className, ImgUrl }: any) {
 
+
   return (
-    <Image className={className} src={ImgUrl} alt=""></Image>
+      
+        <Image className={className} src={ImgUrl} alt=""></Image> 
+  )
+}
+
+function ImgSocials({ className, ImgUrl, Page }: any) {
+
+
+  return (
+      <Link href={Page}>
+        <Image className={className} src={ImgUrl} alt=""></Image> 
+      </Link>
   )
 }
 
@@ -33,7 +46,7 @@ export const FooterImgLogo = styled(Img)`
     }    
 `;
 
-export const IgPic = styled(Img)`
+export const IgPic = styled(ImgSocials)`
   width: 70px;
   height: 70px;
   position: relative;
@@ -45,7 +58,7 @@ export const IgPic = styled(Img)`
     transition: all 0.3s; 
   }
 `
-export const LinkedinPic = styled(Img)`
+export const LinkedinPic = styled(ImgSocials)`
   width: 70px;
   height: 70px;  
   padding: 10px; 
@@ -56,7 +69,7 @@ export const LinkedinPic = styled(Img)`
     border-radius: 15px;
   }
 `
-export const WppPic = styled(Img)`
+export const WppPic = styled(ImgSocials)`
   width: 70px;
   height: 70px;
   padding: 10px;

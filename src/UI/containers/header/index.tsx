@@ -13,7 +13,7 @@ export const HeaderContainer = styled.div`
     &:hover {
         transform: translateY(70px);
     }
-`
+    `
 export const MenuContainer = styled.div`
     height: 70px;
     width: 100vw;
@@ -23,4 +23,7 @@ export const MenuContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     padding: 0px 85px;
-`
+    @media screen and (max-width: 768px){
+        padding: 0px 65px;
+    }
+    `

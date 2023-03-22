@@ -3,10 +3,8 @@ import { HomeParagraphCointainer } from "@/UI/containers/homebox";
 import { HomeLogoContainer } from "@/UI/containers/homebox";
 import { TitleHomePage } from "@/UI/title";
 import { ParagraphHomePage } from "@/UI/paragraph";
-import { ButtonHomePage } from "@/UI/button";
 
 /* Logos */
-import Image from "next/image";
 import  instagramPic from '../../../public/igsvg1.svg'
 import linkdinPic from '../../../public/linkedin.svg'
 import whatsappPic from '../../../public/whatsapp.svg'
@@ -23,9 +21,9 @@ export function HomeBox() {
         <ParagraphHomePage className={"animate__animated animate__fadeInLeft animate__delay-2s"} text={'Comenza tu tratamiento.'} />
       </HomeParagraphCointainer>
       <HomeLogoContainer>
-        <IgPic className="animate__animated animate__fadeInDown animate__delay-3s" ImgUrl={instagramPic}></IgPic>
-        <LinkedinPic className="animate__animated animate__fadeInDown animate__delay-3s" ImgUrl={linkdinPic}></LinkedinPic>
-        <WppPic className="animate__animated animate__fadeInDown animate__delay-3s" ImgUrl={whatsappPic}></WppPic>
+        <IgPic className="animate__animated animate__fadeInDown animate__delay-3s" ImgUrl={instagramPic} Page={"https://www.instagram.com/"}></IgPic>
+        <LinkedinPic className="animate__animated animate__fadeInDown animate__delay-3s" ImgUrl={linkdinPic} Page={"https://www.linkedin.com/"}></LinkedinPic>
+        <WppPic className="animate__animated animate__fadeInDown animate__delay-3s" ImgUrl={whatsappPic} Page={"https://web.whatsapp.com/"}></WppPic>
       </HomeLogoContainer>
     </div>
   );
