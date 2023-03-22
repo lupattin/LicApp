@@ -12,13 +12,13 @@ export function AboutMeBox() {
   return (
     <AboutMeContainer>
       <AboutMeTextContainer>
-        <TitleAboutMe className={"prueba"} title={"Quien te conoce Agus?"}></TitleAboutMe>
-        <ParagraphAboutMe className={"prueba2"} text={AboutMeText}></ParagraphAboutMe>
-        <ButtonAboutMe className={"prueba3"} buttonText="Leer Más"></ButtonAboutMe>
+        <TitleAboutMe className={"title"} title={"Quien te conoce Agus?"}></TitleAboutMe>
+        <ParagraphAboutMe className={"Paragraph"} text={AboutMeText}></ParagraphAboutMe>
+        <ButtonAboutMe className={"Button"} buttonText="Leer Más"></ButtonAboutMe>
       </AboutMeTextContainer>
 
       <AboutMeImgContainer>
-        <AboutMeImg className="prueba4" ImgUrl={aboutMePhoto}></AboutMeImg>
+        <AboutMeImg className="img" ImgUrl={aboutMePhoto}></AboutMeImg>
       </AboutMeImgContainer>
 
     </AboutMeContainer>

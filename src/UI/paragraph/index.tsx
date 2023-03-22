@@ -18,15 +18,12 @@ export const ParagraphHomePage = styled(Paragraph)`
       cursor: pointer;
       color: red;
     }
-
    @media (max-width: 768px) {
           font-size:25px;
-        }
-
+    }
    @media (max-width: 425px) {
-        font-size:16px;
-        
-      }
+        font-size:16px;       
+    }
 `;
 
 export const ParagraphAboutMe = styled(Paragraph)`
@@ -41,6 +38,4 @@ export const ParagraphAboutMe = styled(Paragraph)`
     font-size: 1rem;
     width: 100%;
   }
-  
-
 `

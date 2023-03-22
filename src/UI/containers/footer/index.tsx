@@ -11,12 +11,8 @@ export const FooterContainer = styled.div`
     @media (max-width: 425px) {
         display: flex;
         flex-direction: column;
-        gap: 30px;
-        
-        
+        gap: 30px;     
     }
-
-
 `
 export const FooterImgContainer = styled.div`
    border-left: 2px solid white;
@@ -30,11 +26,7 @@ export const FooterImgContainer = styled.div`
     @media (max-width: 728px) {
         display: flex;
         flex-direction: column;
-        
-
     }
-
-
 `
 export const FooterListContainer = styled.div`
     width: 30%;
@@ -47,9 +39,7 @@ export const FooterListContainer = styled.div`
         height: 60%;
         font-size: 0.7rem;
         align-items: center;
-
-    }   
-    
+    }      
 `
 
 export const SocialMediaFooterContainter = styled.div`
@@ -59,15 +49,10 @@ export const SocialMediaFooterContainter = styled.div`
     cursor: pointer;
     align-items: center;
     @media (max-width: 425px) {
-        width: auto;        
-        
+        width: auto;           
     }
     @media (max-width: 728px) {
         width: auto;
-        margin: auto;
-        
+        margin: auto;  
     }
-
-    
-    
 `

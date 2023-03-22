@@ -38,15 +38,11 @@ export const IgPic = styled(Img)`
   height: 70px;
   position: relative;
   
-  
-  
   :hover{        
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     margin: 0px;
     border-radius: 30px;
     transition: all 0.3s; 
-    
-    
   }
 `
 export const LinkedinPic = styled(Img)`
@@ -69,7 +65,5 @@ export const WppPic = styled(Img)`
     background-color:#25d366;
     transition: all 0.3s;
     border-radius: 30px;
-   
   }
-  
 `

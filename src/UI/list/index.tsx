@@ -24,15 +24,9 @@ export const FooterList = styled(List)`
     cursor: pointer;
     @media (max-width: 728px) {
        width: 100%;
-       
-
     }
     @media (max-width: 1024px) {
        width: 80%;
        font-size: 0.9rem;    
     }
-       
-
-    
-
 `

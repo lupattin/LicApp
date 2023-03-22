@@ -12,7 +12,6 @@ export const HeaderContainer = styled.div`
     z-index: 1;
     &:hover {
         transform: translateY(70px);
-        
     }
 `
 export const MenuContainer = styled.div`
