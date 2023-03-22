@@ -23,6 +23,9 @@ export const AboutMeImg = styled(Img)`
 export const FooterImgLogo = styled(Img)`
     width: 200px;
     height: 200px;
+    :hover{
+      
+    }
     @media (max-width: 425px) {        
         width: 100%;
         height: 100%;
@@ -38,6 +41,8 @@ export const IgPic = styled(Img)`
   height: 70px;
   position: relative;
   
+  
+  
   :hover{        
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     margin: 0px;
@@ -47,10 +52,8 @@ export const IgPic = styled(Img)`
 `
 export const LinkedinPic = styled(Img)`
   width: 70px;
-  height: 70px;
-  position: relative;
-  padding: 10px;
-  
+  height: 70px;  
+  padding: 10px;  
   :hover{
     background-color: #0e76a8;  
     transition: all 0.3s;
