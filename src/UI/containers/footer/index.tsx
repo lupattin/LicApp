@@ -13,6 +13,7 @@ export const FooterContainer = styled.div`
         flex-direction: column;
         gap: 30px;
         
+        
     }
 
 
@@ -47,9 +48,7 @@ export const FooterListContainer = styled.div`
         font-size: 0.7rem;
         align-items: center;
 
-    }
-
-    
+    }   
     
 `
 
@@ -58,8 +57,9 @@ export const SocialMediaFooterContainter = styled.div`
     display: flex;    
     justify-content: space-evenly;
     cursor: pointer;
+    align-items: center;
     @media (max-width: 425px) {
-        width: auto;
+        width: auto;        
         
     }
     @media (max-width: 728px) {
