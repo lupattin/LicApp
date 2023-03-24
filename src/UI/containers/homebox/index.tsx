@@ -10,7 +10,6 @@ export const HomeContainer = styled.div`
     height: 100vh;
     margin: auto;
     position: relative;
-    top: -130px;
     
 `
 export const HomeParagraphCointainer = styled.div`

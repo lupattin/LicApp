@@ -1,9 +1,9 @@
 import "animate.css";
 import styled from "styled-components";
 
-function Paragraph({className, text}:any) {
+function Paragraph({className, text, onClick}:any) {
   return (
-    <h3 className={className}>{text}</h3>
+    <h3 onClick={()=>{onClick()}} className={className}>{text}</h3>
   );
 }
 

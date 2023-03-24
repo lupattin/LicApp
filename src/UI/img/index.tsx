@@ -24,6 +24,11 @@ function ImgSocials({ className, ImgUrl, Page }: any) {
   )
 }
 
+export const ArrowImg = styled(Img)`
+   position: relative;
+   width: 30px;
+   height: 30px;
+`;
 export const AboutMeImg = styled(Img)`
     width: 100%;
     height: 90%;

@@ -3,13 +3,14 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
     height: 170px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items:center;
     top: -70px;
-    position: relative;
+    position: fixed;
     transition: transform 250ms;
-    z-index: 1;
+    z-index: 2;
     &:hover {
         transform: translateY(70px);
     }
