@@ -8,14 +8,14 @@ export const HomeAboutMeContainer = styled.div`
     width: 100vw; 
     height: 100vh;
     text-align: center;
-    margin-bottom: 500px;
+    margin-bottom: 700px;
 `
 export const AboutMeContainer = styled.div`
     background-color:#575e79;
     display: flex;
     flex-direction: row;
     align-items: center;    
-    width: 80%;
+    width: 100%;
     height: 80%;
     z-index: 1;
     left: -300px;
@@ -52,5 +52,5 @@ export const AboutMeTextContainer = styled.div `
     }
 `
 export const AboutMeImgContainer = styled.div `
-    width: 50%;
+    width: 45%;
 `
