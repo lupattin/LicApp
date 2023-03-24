@@ -28,10 +28,19 @@ export const AboutMeImg = styled(Img)`
     width: 100%;
     height: 90%;
     @media screen and (max-width: 768px) {
-      width: 100%;
+      width: 100%;      
     }
 
 `;
+export const WaveAboutMeTop = styled(Img)`
+  position: relative;
+  transform: rotate(180deg);
+  width: 100%;
+`
+export const WaveAboutMeBottom= styled(Img)`
+  position: relative;
+  width: 100%;
+`
 
 export const FooterImgLogo = styled(Img)`
     width: 200px;
