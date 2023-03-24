@@ -11,7 +11,7 @@ export const FooterContainer = styled.div`
     @media (max-width: 425px) {
         display: flex;
         flex-direction: column;
-        gap: 30px;     
+             
     }
 `
 export const FooterImgContainer = styled.div`

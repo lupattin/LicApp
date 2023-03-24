@@ -13,9 +13,9 @@ export function NavBarHeader({className}) {
     <Navbar variant="dark"> 
         <Container className={className}>
             <Nav style={{width:"365px"}} fill className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
+                <Nav.Link href="#home" onClick={() => {window.scroll(0, 200)}}>Inicio</Nav.Link>
+                <Nav.Link href="#features" onClick={() => {window.scroll(0, 1100)}}>Sobre Mí</Nav.Link>
+                <Nav.Link href="#pricing" onClick={() => {window.scroll(0, 20000)}} >Contacto</Nav.Link>
             </Nav>
         </Container>
     </Navbar>

@@ -8,6 +8,7 @@ export const HomeAboutMeContainer = styled.div`
     width: 100vw; 
     height: 100vh;
     text-align: center;
+    margin-bottom: 500px;
 `
 export const AboutMeContainer = styled.div`
     background-color:#575e79;
@@ -17,6 +18,9 @@ export const AboutMeContainer = styled.div`
     width: 80%;
     height: 80%;
     z-index: 1;
+    left: -300px;
+    
+   
     @media screen and (max-width: 480px){
         display: flex;
         flex-direction: column-reverse;
