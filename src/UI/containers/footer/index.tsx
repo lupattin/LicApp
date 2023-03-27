@@ -19,6 +19,7 @@ export const FooterImgContainer = styled.div`
    border-right: 2px solid white;
    width: 40%;
    text-align: center;
+   cursor: pointer;
    @media (max-width: 425px) {
        width: 50%;
        border: none;
