@@ -13,10 +13,11 @@ export const ParagraphHomePage = styled(Paragraph)`
    margin: 0;
    transition: font-size .5s ease;
    transition: 0.3s;
+   color: #706f6d;
    &:hover {
       font-size: 35px;
       cursor: pointer;
-      color: red;
+      color: #4f473f;
     }
    @media (max-width: 768px) {
           font-size:25px;

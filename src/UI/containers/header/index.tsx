@@ -7,23 +7,23 @@ export const HeaderContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items:center;
-    top: -70px;
+    top: -105px;
     position: fixed;
     transition: transform 250ms;
     z-index: 2;
     &:hover {
-        transform: translateY(70px);
+        transform: translateY(105px);
     }
     `
 export const MenuContainer = styled.div`
-    height: 70px;
+    height: 105px;
     width: 100vw;
     position: relative;
     background-color: gray;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 85px;
+    padding: 0px 140px;
     @media screen and (max-width: 768px){
         padding: 0px 65px;
     }

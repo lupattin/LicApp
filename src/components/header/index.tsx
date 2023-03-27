@@ -7,6 +7,7 @@ import { ArrowImg } from "@/UI/img";
 
 /* IMG */
 import arrowPic from '../../../public/arrowUp.svg'
+import LogoPic from "../../../public/AsLogo.svg"
 
 
 
@@ -16,7 +17,7 @@ export function Header() {
       <>
         <HeaderContainer >
           <MenuContainer>
-          <Image  src={"https://nutriloca.com/wp-content/uploads/2021/05/aboutme-10.png"} alt="Logo" width={70} height={70}></Image>
+          <Image style={{marginLeft:"120px"}}  src={LogoPic} alt="Logo" width={70} height={70}></Image>
               <NavbarStyled className={""}/>
           </MenuContainer>
           <ArrowImg ImgUrl={arrowPic}></ArrowImg>

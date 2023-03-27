@@ -7,9 +7,10 @@ export const HomeContainer = styled.div`
     align-items: center;
     justify-content: center;
     width: 90vw; 
-    height: 100vh;
+    height: 110vh;
     margin: auto;
     position: relative;
+    top: -30px;
     
 `
 export const HomeParagraphCointainer = styled.div`

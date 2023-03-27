@@ -23,6 +23,16 @@ function ImgSocials({ className, ImgUrl, Page }: any) {
       </Link>
   )
 }
+function Logo({className, ImgUrl, Width, Height}){
+
+  return(
+    <Image className={className} src={ImgUrl} alt="" width={Width} height={Height}></Image> 
+  )
+}
+
+export const LogoImg = styled(Logo)`
+    opacity: 0.8;
+`
 
 export const ArrowImg = styled(Img)`
    position: relative;
