@@ -19,7 +19,7 @@ export const MenuContainer = styled.div`
     height: 105px;
     width: 100vw;
     position: relative;
-    background-color: gray;
+    background-color: #808080d4;
     display: flex;
     align-items: center;
     justify-content: space-between;

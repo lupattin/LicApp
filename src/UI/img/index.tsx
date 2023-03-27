@@ -5,12 +5,12 @@ import Link from 'next/link'
 
 
 
-function Img({ className, ImgUrl }: any) {
+function Img({ className, ImgUrl,  }: any) {
 
 
   return (
       
-        <Image className={className} src={ImgUrl} alt=""></Image> 
+        <Image className={className} src={ImgUrl} alt="" ></Image> 
   )
 }
 
@@ -32,6 +32,16 @@ function Logo({className, ImgUrl, Width, Height}){
 
 export const LogoImg = styled(Logo)`
     opacity: 0.8;
+`
+export const LogoImgHeader = styled(Logo)`
+    margin-left: 120px;
+
+    @media (max-width: 768px) {        
+      margin-left: 95px;
+    }   
+    @media (max-width: 425px) {        
+      margin-left: 0px;
+    }   
 `
 
 export const ArrowImg = styled(Img)`

@@ -12,19 +12,19 @@ import { WaveAboutMeBottom } from "@/UI/img/index";
 import { WaveAboutMeTop } from "@/UI/img/index"
 
 /*Photo*/
-import aboutMePhoto from '../../../public/aboutme-10.png'
+import aboutMePhoto from '../../../public/AgusFoto.png'
 import wavePhotoBottom from '../../../public/wavesBottom.svg'
 import wavePhotoTop from '../../../public/wavesTop.svg' 
 
 export function AboutMeBox() {
-  const AboutMeText = 'Ya vamos a eso, pero antes me gustaría comentar que desde hace un tempo largo -algunos años quizás- me vienen conflictuando las presentaciones formales académicas institucionalizadas. Empecé a notarlo en el momento de ser presentada (o me tengo que presentar) en charlas, conferencias, reuniones, lo que sea'
+  const AboutMeText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
 
   return (
     <>
       <WaveAboutMeTop ImgUrl ={wavePhotoTop}/>
       <AboutMeContainer>
         <AboutMeTextContainer>
-          <TitleAboutMe className={"title"} title={"Quien te conoce Agus?"}></TitleAboutMe>
+          <TitleAboutMe className={"title"} title={"Conoceme un poco más."}></TitleAboutMe>
           <ParagraphAboutMe className={"Paragraph"} text={AboutMeText}></ParagraphAboutMe>
           <ButtonAboutMe className={"Button"} buttonText="Leer Más"></ButtonAboutMe>
         </AboutMeTextContainer>

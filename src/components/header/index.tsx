@@ -4,6 +4,7 @@ import { MenuContainer } from "@/UI/containers/header";
 import { NavbarStyled } from "@/UI/navbar";
 import Image from "next/image";
 import { ArrowImg } from "@/UI/img";
+import { LogoImgHeader } from "@/UI/img";
 
 /* IMG */
 import arrowPic from '../../../public/arrowUp.svg'
@@ -17,7 +18,7 @@ export function Header() {
       <>
         <HeaderContainer >
           <MenuContainer>
-          <Image style={{marginLeft:"120px"}}  src={LogoPic} alt="Logo" width={70} height={70}></Image>
+          <LogoImgHeader className={"LogoImgHeader"}  ImgUrl={LogoPic} Width={70} Height={70}></LogoImgHeader>
               <NavbarStyled className={""}/>
           </MenuContainer>
           <ArrowImg ImgUrl={arrowPic}></ArrowImg>

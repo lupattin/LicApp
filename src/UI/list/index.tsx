@@ -5,7 +5,7 @@ import Link from 'next/link'
 function List ({className}) {
     return (
         <ul className={className}>
-            <li><Link href=''>Inicio</Link></li>
+            <li><Link style={{color:"#efd3ea"}} href=''>Inicio</Link></li>
             <li><Link href=''>Sobre mi</Link></li>
             <li><Link href=''>Agendar turno</Link></li>
             <li><Link href=''>Contacto</Link></li>

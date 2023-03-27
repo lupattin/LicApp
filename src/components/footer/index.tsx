@@ -11,7 +11,7 @@ import { WppPic } from "@/UI/img"
 import igPic from '../../../public/igsvg1.svg'
 import linkdinPic from '../../../public/linkedin.svg'
 import whatsappPic from '../../../public/whatsapp.svg'
-import footerImgPhoto from '../../../public/aboutme-10.png'
+import footerImgPhoto from '../../../public/AsLogo.svg'
 
 export function FooterBox() {
     return (
