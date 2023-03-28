@@ -39,4 +39,7 @@ export const ParagraphAboutMe = styled(Paragraph)`
     font-size: 1rem;
     width: 100%;
   }
+  @media screen and (max-width: 425px) {
+      margin: 0;
+    }
 `

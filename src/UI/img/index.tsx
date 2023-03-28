@@ -52,6 +52,7 @@ export const ArrowImg = styled(Img)`
 export const AboutMeImg = styled(Img)`
     width: 100%;
     height: 90%;
+    border-radius: 130px;
     @media screen and (max-width: 768px) {
       width: 100%;      
     }
@@ -69,7 +70,12 @@ export const WaveAboutMeBottom= styled(Img)`
 
 export const FooterImgLogo = styled(Img)`
     width: 200px;
-    height: 200px;   
+    height: 200px;  
+    :hover{
+      padding: 20px;
+      transition: all 1s;
+    
+    } 
     @media (max-width: 425px) {        
         width: 100%;
         height: 100%;

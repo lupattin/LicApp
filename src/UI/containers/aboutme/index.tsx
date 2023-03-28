@@ -14,7 +14,8 @@ export const AboutMeContainer = styled.div`
     background-color:#575e79;
     display: flex;
     flex-direction: row;
-    align-items: center;    
+    align-items: center;   
+    justify-content: center;
     width: 100%;
     height: 80%;
     z-index: 1;
@@ -37,12 +38,13 @@ export const AboutMeTextContainer = styled.div `
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width:60%;
-    margin: 40px;    
+    width: 50%;
+    margin-left: 90px;    
     gap: 40px;
     @media screen and (max-width: 480px) {
         display: flex;
         align-items: center;
+        margin: 0;
     }
     @media screen and (max-width: 768px){
         width: 60%; 
@@ -52,5 +54,9 @@ export const AboutMeTextContainer = styled.div `
     }
 `
 export const AboutMeImgContainer = styled.div `
-    width: 45%;
+    width: 30%;
+    @media screen and (max-width: 768px){
+        width: 50%;
+        
+    }
 `

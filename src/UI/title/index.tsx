@@ -40,4 +40,7 @@ export const TitleAboutMe = styled(Title)`
       font-size: 2rem;
       width: 100%;
     }
+    @media screen and (max-width: 425px) {
+      margin: 0;
+    }
   `

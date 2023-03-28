@@ -20,8 +20,8 @@ export function FooterBox() {
                 <FooterList className={'listado'}></FooterList>
             </FooterListContainer>
             
-            <FooterImgContainer>
-                <FooterImgLogo className='footerImgLogo' ImgUrl={footerImgPhoto}></FooterImgLogo>
+            <FooterImgContainer onClick={() => {window.scroll(0, 0)}}>
+                <FooterImgLogo  className='footerImgLogo' ImgUrl={footerImgPhoto}></FooterImgLogo>
             </FooterImgContainer>
             <SocialMediaFooterContainter>
                 <IgPic src={igPic} alt="Picture of Facebook"  ImgUrl={igPic} Page={"https://www.instagram.com/"}></IgPic>

@@ -27,7 +27,7 @@ export function NavBarHeader({className}) {
         <Container className={className}>      
                 <Nav style={{width:"365px"}} fill className="me-auto">
                     <NavLinkStyled positionX={0} positionY={0}>Inicio</NavLinkStyled>
-                    <NavLinkStyled positionX={0} positionY={670}>Sobre Mí</NavLinkStyled>
+                    <NavLinkStyled positionX={0} positionY={1050}>Sobre Mí</NavLinkStyled>
                     <NavLinkStyled positionX={0} positionY={20000}>Contacto</NavLinkStyled>
                 </Nav>
         </Container>
