@@ -24,12 +24,21 @@ export const FooterList = styled(List)`
     list-style: circle;    
     font-size: 1rem;    
     cursor: pointer;
-    @media (max-width: 769px) {
-       width: 100%;
+    @media (max-width: 425px){
+        font-size: 0.8rem;
+    }
+    @media (max-width: 768px) {
+       width: 80%;
        font-size: 1.0rem; 
     }
     @media (max-width: 1024px) {
        width: 80%;
        font-size: 1.3rem;    
     }
+    @media (max-width: 1440px) {
+       width: 70%;
+       font-size: 1.4rem;    
+    }
+    
+
 `

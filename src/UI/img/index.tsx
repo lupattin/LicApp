@@ -80,10 +80,12 @@ export const FooterImgLogo = styled(Img)`
     @media (max-width: 425px) {        
         width: 100%;
         height: 100%;
+        
     }
-    @media (max-width: 728px) {        
-        width: 100%;
+    @media (max-width: 768px) {        
+        width: 70%;
         height: 70%;
+        
     }    
 `;
 
