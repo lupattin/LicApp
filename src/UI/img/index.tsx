@@ -62,19 +62,20 @@ export const WaveAboutMeTop = styled(Img)`
   position: relative;
   transform: rotate(180deg);
   width: 100%;
+  bottom: -1px;
 `
 export const WaveAboutMeBottom= styled(Img)`
   position: relative;
   width: 100%;
+  top: -1px;
 `
 
 export const FooterImgLogo = styled(Img)`
     width: 200px;
     height: 200px;  
+    transition: padding 0.5s ease;
     :hover{
-      padding: 20px;
-      transition: all 1s;
-    
+     padding: 20px;  
     } 
     @media (max-width: 425px) {        
         width: 100%;
