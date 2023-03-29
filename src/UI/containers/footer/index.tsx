@@ -17,16 +17,19 @@ export const FooterContainer = styled.div`
 export const FooterImgContainer = styled.div`
    border-left: 2px solid white;
    border-right: 2px solid white;
-   width: 40%;
+   width: 35%;
    text-align: center;
    cursor: pointer;
    @media (max-width: 425px) {
        width: 50%;
        border: none;
+       justify-content: space-evenly;
+
     }
-    @media (max-width: 728px) {
+    @media (max-width: 768px) {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 `
 export const FooterListContainer = styled.div`
@@ -36,9 +39,8 @@ export const FooterListContainer = styled.div`
     @media (max-width: 425px) {
       display: none;
     }
-    @media (max-width: 728px) {
-        height: 60%;
-        font-size: 0.7rem;
+    @media (max-width: 768px) {
+        height: 50%;        
         align-items: center;
     }      
 `
@@ -52,7 +54,7 @@ export const SocialMediaFooterContainter = styled.div`
     @media (max-width: 425px) {
         width: auto;           
     }
-    @media (max-width: 728px) {
+    @media (max-width: 768px) {
         width: auto;
         margin: auto;  
     }

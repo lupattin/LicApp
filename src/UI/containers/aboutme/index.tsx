@@ -19,7 +19,7 @@ export const AboutMeContainer = styled.div`
     width: 100%;
     height: 80%;
     z-index: 1;
-    left: -300px;
+    
     
    
     @media screen and (max-width: 480px){
