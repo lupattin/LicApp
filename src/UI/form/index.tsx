@@ -12,6 +12,7 @@ import Alert from 'react-bootstrap/Alert';
 /* SendGrid */
 
 import { sendMail } from '@/lib/sendgrid';
+import { AnyAaaaRecord } from 'dns';
 
 export function ModalForm () {
 
@@ -54,9 +55,14 @@ export function ModalForm () {
 
 
 
-        const resp = await sendMail(formData) as any
-
-        if(resp == true){
+        const resp = await fetch("/api/sendmail", {
+          method: "POST",
+          body:JSON.stringify(formData)
+          }) 
+        const json = await resp.json() 
+        console.log(json);
+        
+        if(json.resp == true){ 
             
             changeSpinnerState("none")
             changeChildrenState("Enviar")

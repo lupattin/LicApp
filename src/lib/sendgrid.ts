@@ -10,9 +10,9 @@ type FormData ={
 
 export async function sendMail(formData:FormData){
 
-    sgMail.setApiKey(process.env.SENDGRID_SECRET as any)
+    const prueba = sgMail.setApiKey(process.env.SENDGRID_SECRET as any)
 
-    console.log(formData);
+    console.log(prueba);
     
     
     const msg = {
