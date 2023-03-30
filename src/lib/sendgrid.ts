@@ -1,8 +1,19 @@
 import sgMail from "@sendgrid/mail";
 
-export function sendMail(email, name, lastname, phoneNumber, argument ){
+type FormData ={
+   name:string
+   lastname:string
+   email:string
+   phone:number
+   argument:string
+}
+
+export async function sendMail(formData:FormData){
 
     sgMail.setApiKey(process.env.SENDGRID_SECRET as any)
+
+    console.log(formData);
+    
     
     const msg = {
       to: 'lupattin@gmail.com', // Change to your recipient
@@ -10,19 +21,22 @@ export function sendMail(email, name, lastname, phoneNumber, argument ){
       subject: 'Nuevo paciente',
       html: `
       <strong>
-        Paciente:${name}" "${lastname}
-        Telefono: ${phoneNumber}
-        Email: ${email}
-        Motivo de consulta: ${argument}
+        Paciente:${formData.name}" "${formData.lastname}
+        Telefono: ${formData.phone}
+        Email: ${formData.email}
+        Motivo de consulta: ${formData.argument}
       </strong>
       `,
     }
     sgMail
       .send(msg)
-      .then(() => {
+      .then((r) => {
+        console.log("entro al then");
+        console.log(r);
+        
         return true
       })
       .catch((error) => {
-        return error
+        throw error
       })
 }

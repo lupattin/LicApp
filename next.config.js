@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  fs: false,
   reactStrictMode: true,
   compiler: {
     // Enables the styled-components SWC transform
