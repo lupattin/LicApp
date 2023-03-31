@@ -8,12 +8,9 @@ type FormData ={
    argument:string
 }
 
-export async function sendMail(formData:FormData){
+export async function sendMail(formData){
 
-    const prueba = sgMail.setApiKey(process.env.SENDGRID_SECRET as any)
-
-    console.log(prueba);
-    
+    sgMail.setApiKey(process.env.SENDGRID_SECRET as any)
     
     const msg = {
       to: 'lupattin@gmail.com', // Change to your recipient
@@ -30,9 +27,7 @@ export async function sendMail(formData:FormData){
     }
     sgMail
       .send(msg)
-      .then((r) => {
-        console.log("entro al then");
-        console.log(r);
+      .then(() => {
         
         return true
       })

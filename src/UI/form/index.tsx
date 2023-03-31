@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 /* Bootstrap */
 import Container from 'react-bootstrap/Container';
@@ -9,10 +9,6 @@ import Button from 'react-bootstrap/Button';
 import Spinner from 'react-bootstrap/Spinner';
 import Alert from 'react-bootstrap/Alert';
 
-/* SendGrid */
-
-import { sendMail } from '@/lib/sendgrid';
-import { AnyAaaaRecord } from 'dns';
 
 export function ModalForm () {
 
@@ -21,18 +17,6 @@ export function ModalForm () {
 
     const [alertSuccessState, changeAlertSuccessState] = useState("none")
     const [alertErrorState, changeAlertErrorState] = useState("none")
-
-    /* async function prueba(){
-       
-        const myPromise = new Promise((resolve, reject) => {
-            setTimeout(() => {
-              resolve(false);
-            }, 3000);
-          }); 
-      const resp = await myPromise
-          
-      return resp
-    } */
 
 
     async function handleSubmit(event){
@@ -53,16 +37,16 @@ export function ModalForm () {
 
         /* Send Email and changes states of button and alerts*/
 
-
-
         const resp = await fetch("/api/sendmail", {
           method: "POST",
+          headers: {
+            "content-type": "application/json"
+        },
           body:JSON.stringify(formData)
           }) 
         const json = await resp.json() 
-        console.log(json);
         
-        if(json.resp == true){ 
+        if(json.resp == "ok"){ 
             
             changeSpinnerState("none")
             changeChildrenState("Enviar")
