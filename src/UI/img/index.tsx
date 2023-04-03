@@ -63,6 +63,10 @@ export const WaveAboutMeTop = styled(Img)`
   transform: rotate(180deg);
   width: 100%;
   bottom: -1px;
+  @media (min-width: 425px) and (orientation: landscape) {
+        margin-top: 400px;
+    }
+    
 `
 export const WaveAboutMeBottom= styled(Img)`
   position: relative;

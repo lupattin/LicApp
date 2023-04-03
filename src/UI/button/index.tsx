@@ -33,6 +33,18 @@ export const ButtonAboutMe = styled(Buttons)`
   font-size: 1.2vw;
   font-weight: 600;
   margin-left: 12%;
+
+  @media screen and (max-width: 425px){
+    font-size: 3.8vw;
+    margin-left: 0%;
+
+  }
+
+  @media (min-width: 425px) and (orientation: landscape) {
+    font-size: 2.3vw;
+
+  }
+
  
 
   @media screen and (max-width: 768px) {
