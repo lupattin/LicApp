@@ -44,6 +44,9 @@ export function ModalForm () {
         },
           body:JSON.stringify(formData)
           }) 
+        
+          console.log(resp);
+          
         const json = await resp.json() 
         
         if(json.resp == "ok"){ 

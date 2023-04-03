@@ -6,6 +6,12 @@ export async function sendMail(formData){
   
 
     sgMail.setApiKey(process.env.SENDGRID_SECRET as any)
+
+    console.log("prueba");
+
+    console.log(process.env.SENDGRID_SECRET);
+    
+    
     
     const msg = {
       to: 'lupattin@gmail.com', // Change to your recipient

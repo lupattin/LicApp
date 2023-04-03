@@ -2,13 +2,17 @@ import { NextApiRequest, NextApiResponse } from "next";
 import { runCorsMiddleware } from "@/lib/middlewares";
 import methods from "micro-method-router";
 import { sendMail } from "@/lib/sendgrid";
-import { log } from "console";
 
  async function postHandler(req: NextApiRequest, res: NextApiResponse){
 
    try {
 
-     await sendMail(req.body)
+    console.log(req.body);
+    
+
+     const verResp = await sendMail(req.body)
+     console.log(verResp);
+     
      console.log("entro try");
      
      res.status(200).json({resp:"ok"})
