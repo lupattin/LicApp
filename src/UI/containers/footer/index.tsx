@@ -54,8 +54,7 @@ export const FooterListContainer = styled.div`
         justify-content: center;
 
     }
-    @media (max-width: 768px) {
-        height: 50%;        
+    @media (max-width: 768px) {             
         align-items: center;
     }      
 `

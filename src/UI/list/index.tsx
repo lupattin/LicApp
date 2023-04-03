@@ -39,22 +39,19 @@ export const FooterList = styled(List)`
     width: 50%;
     list-style: circle;    
     font-size: 1rem;    
-    cursor: pointer;
-    @media (max-width: 425px){
-        font-size: 0.8rem;        
-    }    
+    cursor: pointer;     
+    @media (max-width: 1440px) {
+        width: 70%;
+        font-size: 1.0rem;    
+    }
+    @media (max-width: 1024px) {
+        width: 80%;
+        font-size: 1.0rem;    
+    }
+    
     @media (max-width: 768px) {
        width: 80%;
        font-size: 1.0rem; 
     }
-    @media (max-width: 1024px) {
-       width: 80%;
-       font-size: 1.0rem;    
-    }
-    @media (max-width: 1440px) {
-       width: 70%;
-       font-size: 1.4rem;    
-    }
-    
 
 `
