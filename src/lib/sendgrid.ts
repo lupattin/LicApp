@@ -13,7 +13,7 @@ export async function sendMail(formData){
       subject: 'Nuevo paciente',
       html: `
       <strong>
-        Paciente:${formData.name}" "${formData.lastname}
+        Paciente:${formData.name} ${formData.lastname}
         Telefono: ${formData.phone}
         Email: ${formData.email}
         Motivo de consulta: ${formData.argument}
