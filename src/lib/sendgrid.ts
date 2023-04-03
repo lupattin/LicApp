@@ -1,14 +1,9 @@
 import sgMail from "@sendgrid/mail";
 
-type FormData ={
-   name:string
-   lastname:string
-   email:string
-   phone:number
-   argument:string
-}
-
 export async function sendMail(formData){
+
+  console.log(formData);
+  
 
     sgMail.setApiKey(process.env.SENDGRID_SECRET as any)
     
@@ -27,11 +22,14 @@ export async function sendMail(formData){
     }
     sgMail
       .send(msg)
-      .then(() => {
+      .then((r) => {
+        console.log(r);
         
         return true
       })
       .catch((error) => {
+        console.log(error);
+        
         throw error
       })
 }
