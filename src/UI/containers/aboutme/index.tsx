@@ -17,10 +17,8 @@ export const AboutMeContainer = styled.div`
     align-items: center;   
     justify-content: center;
     width: 100%;
-    height: 80%;
-    z-index: 1;
-    
-    
+    height: 100%;
+    z-index: 1;          
    
     @media screen and (max-width: 480px){
         display: flex;
@@ -28,6 +26,7 @@ export const AboutMeContainer = styled.div`
         justify-content: center;
         
     }
+    
     @media screen and (max-width: 768px){
         width: 100%;
         
@@ -45,7 +44,16 @@ export const AboutMeTextContainer = styled.div `
         display: flex;
         align-items: center;
         margin: 0;
+        width: 80%;
+        gap: 27px;
     }
+    @media (min-width: 425px) and (orientation: landscape){
+        width: 60%;
+        margin-left: 12px;
+       
+
+    }
+   
     @media screen and (max-width: 768px){
         width: 60%; 
         margin: 10px; 
@@ -55,6 +63,10 @@ export const AboutMeTextContainer = styled.div `
 `
 export const AboutMeImgContainer = styled.div `
     width: 30%;
+    @media screen and (max-width: 425px){
+        width: 45%;
+
+    }
     @media screen and (max-width: 768px){
         width: 50%;
         
