@@ -26,7 +26,7 @@ export function FooterBox() {
             <SocialMediaFooterContainter>
                 <IgPic src={igPic} alt="Picture of Facebook"  ImgUrl={igPic} Page={"https://www.instagram.com/"}></IgPic>
                 <LinkedinPic src={linkdinPic} alt="Picture of Linklin" ImgUrl={linkdinPic} Page={"https://www.linkedin.com/"} ></LinkedinPic>
-                <WppPic src={whatsappPic} alt="Picture of Whatsapp" ImgUrl={whatsappPic} Page={"https://web.whatsapp.com/"}></WppPic>
+                <WppPic src={whatsappPic} alt="Picture of Whatsapp" ImgUrl={whatsappPic} Page={"https://api.whatsapp.com/send?phone=5492944149524"}></WppPic>
             </SocialMediaFooterContainter>
         </FooterContainer>
     )
