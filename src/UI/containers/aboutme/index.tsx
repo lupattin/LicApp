@@ -47,7 +47,7 @@ export const AboutMeTextContainer = styled.div `
         width: 80%;
         gap: 27px;
     }
-    @media (min-width: 425px) and (orientation: landscape){
+    @media (max-width: 425px) and (orientation: landscape){
         width: 60%;
         margin-left: 12px;
        

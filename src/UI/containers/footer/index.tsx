@@ -13,7 +13,7 @@ export const FooterContainer = styled.div`
         flex-direction: column;
              
     }
-    @media (min-width: 425px) and (orientation: landscape){        
+    @media (max-width: 900px) and (orientation: landscape){        
         justify-content: center;
 
     }
@@ -30,8 +30,9 @@ export const FooterImgContainer = styled.div`
        justify-content: space-evenly;
 
     }
-    @media (min-width: 425px) and (orientation: landscape){        
+    @media (max-width: 900px) and (orientation: landscape){        
         border:none;
+        justify-content: center;
 
     }
     @media (max-width: 768px) {
@@ -47,13 +48,13 @@ export const FooterListContainer = styled.div`
     @media (max-width: 425px) {
       display: none;
     }
+    
     @media (max-width: 900px) and (orientation: landscape){
         display: none;
         justify-content: center;
 
     }
-    @media (max-width: 768px) {
-        height: 50%;        
+    @media (max-width: 768px) {             
         align-items: center;
     }      
 `

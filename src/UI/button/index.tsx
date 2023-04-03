@@ -40,7 +40,7 @@ export const ButtonAboutMe = styled(Buttons)`
 
   }
 
-  @media (min-width: 425px) and (orientation: landscape) {
+  @media (max-width: 425px) and (orientation: landscape) {
     font-size: 2.3vw;
 
   }
