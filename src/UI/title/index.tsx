@@ -35,17 +35,17 @@ export const TitleAboutMe = styled(Title)`
     text-align: start;
     font-weight: 700;
     width: 90%;
-
     
-  @media screen and (max-width: 425px) {
-    margin: 0;
-  }
-  @media (min-width: 425px) and (orientation: landscape){
-      font-size: 1.8rem;
-
-  }
+  
   @media screen and (max-width: 768px) {
     font-size: 2rem;
     width: 100%;
+  }
+  @media screen and (max-width: 425px) {
+    margin: 0;
+  }
+  @media (max-width: 425px) and (orientation: landscape){
+      font-size: 1.8rem;
+
   }
 `
