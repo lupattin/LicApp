@@ -49,7 +49,7 @@ export const FooterList = styled(List)`
     }
     @media (max-width: 1024px) {
        width: 80%;
-       font-size: 1.3rem;    
+       font-size: 1.0rem;    
     }
     @media (max-width: 1440px) {
        width: 70%;
