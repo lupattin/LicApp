@@ -26,16 +26,15 @@ export async function sendMail(formData){
       </strong>
       `,
     }
-    sgMail
-      .send(msg)
-      .then((r) => {
-        console.log(r);
-        
-        return true
-      })
-      .catch((error) => {
-        console.log(error);
-        
-        throw error
-      })
+    try {
+      const result = await sgMail.send(msg)
+      console.log(result);
+      
+      return result
+      
+    } catch (error) {
+      console.log(error);
+      
+      throw error
+    }
 }
