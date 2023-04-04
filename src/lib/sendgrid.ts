@@ -2,17 +2,8 @@ import sgMail from "@sendgrid/mail";
 
 export async function sendMail(formData){
 
-  console.log(formData);
-  
-
-    sgMail.setApiKey(process.env.SENDGRID_SECRET as any)
-
-    console.log("prueba");
-
-    console.log(process.env.SENDGRID_SECRET);
-    
-    
-    
+    sgMail.setApiKey(process.env.SENDGRID_SECRET as any)  
+ 
     const msg = {
       to: 'lupattin@gmail.com', // Change to your recipient
       from: 'pattindev@gmail.com', // Change to your verified sender
@@ -28,12 +19,10 @@ export async function sendMail(formData){
     }
     try {
       const result = await sgMail.send(msg)
-      console.log(result);
-      
+
       return result
       
     } catch (error) {
-      console.log(error);
       
       throw error
     }

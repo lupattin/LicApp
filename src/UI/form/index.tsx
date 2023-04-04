@@ -104,7 +104,7 @@ export function ModalForm () {
                 <Col>
                   <Form.Group className="mb-3" controlId="argument">
                     <Form.Label>Motivo de consulta.</Form.Label>
-                    <Form.Control className='h-150' size='lg' as="textarea" placeholder="Enter email" />
+                    <Form.Control className='h-150' size='lg' as="textarea"/>
                   </Form.Group>
                 </Col>
               </Row>

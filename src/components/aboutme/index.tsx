@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 /*Containers*/
 import { AboutMeContainer } from "@/UI/containers/aboutme";
 
@@ -10,15 +12,25 @@ import { AboutMeTextContainer } from "@/UI/containers/aboutme";
 import { AboutMeImgContainer } from "@/UI/containers/aboutme"
 import { WaveAboutMeBottom } from "@/UI/img/index";
 import { WaveAboutMeTop } from "@/UI/img/index"
+/* component */
+
+import { ModalMoreInfo } from "../modal";
 
 /*Photo*/
 import aboutMePhoto from '../../../public/AgusFoto.png'
 import wavePhotoBottom from '../../../public/wavesBottom.svg'
 import wavePhotoTop from '../../../public/wavesTop.svg' 
+import React from "react";
 
 export function AboutMeBox() {
   const AboutMeText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
   
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
   return (
     <>
       <WaveAboutMeTop ImgUrl ={wavePhotoTop}/>
@@ -26,7 +38,8 @@ export function AboutMeBox() {
         <AboutMeTextContainer>
           <TitleAboutMe className={"title"} title={"Conoceme un poco más."}></TitleAboutMe>
           <ParagraphAboutMe onClick={()=>{""}} className={"Paragraph"} text={AboutMeText}></ParagraphAboutMe>
-          <ButtonAboutMe className={"Button"} buttonText="Leer Más"></ButtonAboutMe>
+          <ButtonAboutMe className={"Button"} buttonText="Leer Más" onClick={handleShow}></ButtonAboutMe>
+          <ModalMoreInfo show={show} handleClose={handleClose} ></ModalMoreInfo>
         </AboutMeTextContainer>
 
         <AboutMeImgContainer>

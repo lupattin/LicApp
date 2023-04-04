@@ -2,7 +2,6 @@
 import { HeaderContainer } from "@/UI/containers/header";
 import { MenuContainer } from "@/UI/containers/header";
 import { NavbarStyled } from "@/UI/navbar";
-import Image from "next/image";
 import { ArrowImg } from "@/UI/img";
 import { LogoImgHeader } from "@/UI/img";
 

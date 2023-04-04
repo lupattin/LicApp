@@ -7,7 +7,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
             
 export function NavLink ({className, positionX, positionY, children }:any){
-    
+
+
         return(
             <Nav.Link className={className} onClick={()=>{ window.scroll(positionX, positionY) }}> {children}</Nav.Link>
         )
@@ -20,7 +21,7 @@ export const NavLinkStyled = styled(NavLink)`
 `
 
 export function NavBarHeader({className}) {
-    
+  
 
     return (
     <Navbar variant="dark" >

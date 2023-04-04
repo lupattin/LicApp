@@ -7,17 +7,11 @@ import { sendMail } from "@/lib/sendgrid";
 
    try {
 
-    console.log(req.body);
-    
-
-     const verResp = await sendMail(req.body)
-     console.log(verResp);
-     
-     console.log("entro try");
+     await sendMail(req.body)
      
      res.status(200).json({resp:"ok"})
    } catch (error) {
-    console.log("entro error");
+
     res.status(500).json({error})
    }
    

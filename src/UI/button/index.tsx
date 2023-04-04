@@ -10,6 +10,14 @@ function Buttons({className, buttonText}:any) {
     
   );
 }
+function ButtonOnClick({className, buttonText, onClick}:any) {
+  /*  */
+  return (
+  
+    <Button size="lg" variant="light" className={className} onClick={onClick}>{buttonText}</Button> 
+    
+  );
+}
 
 export const ButtonHomePage = styled(Buttons)`
     @media (max-width: 768px) {
@@ -25,7 +33,7 @@ export const ButtonHomePage = styled(Buttons)`
       }
 `;
 
-export const ButtonAboutMe = styled(Buttons)`  
+export const ButtonAboutMe = styled(ButtonOnClick)`  
   border: none;
   border-radius: 20px;
   width: 40%;
