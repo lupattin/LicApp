@@ -62,13 +62,9 @@ export function ModalMoreInfo({ show, handleClose }) {
       <Modal.Body>
         <p>
           {" "}
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Desde el punto de vista académico, podemos decir que soy licenciada en psicología, tengo el título de docente y también hice un posgrado en terapias psicoanalíticas para adultos. Lo cierto es que esto queda bastante corto a la hora de presentarme, ya que para llegar a donde estoy, mi recorrido fue mucho más extenso de lo que pueden dar cuenta los títulos académicos.
+
+          Después de un largo período de vivir en la gran ciudad, tomé la decisión de volver a mi ciudad de origen, Bariloche, Argentina. Desde acá continúo mi formación profesional y personal, y acompaño a otras personas en sus procesos, habilitando la pregunta y la palabra como posibilitadoras de cambios. Mi perspectiva profesional contempla la integridad del sujeto, pensando los casos desde el paradigma de la complejidad, teniendo siempre una mirada humana y amorosa hacia mis pacientes.
         </p>
       </Modal.Body>
     </Modal>
