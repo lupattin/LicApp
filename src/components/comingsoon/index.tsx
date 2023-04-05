@@ -13,7 +13,7 @@ export function ComingSoon() {
 
 const ComingSoonH5 = styled.h5`
     font-size: 75px;
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 600px){
        font-size: 45px;
     }
 `
