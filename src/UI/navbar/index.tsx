@@ -48,6 +48,6 @@ export function NavBarHeader({className}) {
             }
             @media screen and (max-width: 375px){
                 width: 225px;
-                margin-left: 25px;
+                margin-left: 15px;
             }
 `

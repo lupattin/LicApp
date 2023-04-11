@@ -76,13 +76,13 @@ export function ModalForm () {
                 <Col >
                 <Form.Group className="mb-3" controlId="name">
                   <Form.Label>Nombre</Form.Label>
-                  <Form.Control type="text" />
+                  <Form.Control required type="text" />
                 </Form.Group>
                 </Col>
                 <Col >
                 <Form.Group className="mb-3" controlId="lastname">
                   <Form.Label>Apellido</Form.Label>
-                  <Form.Control type="text" />
+                  <Form.Control required type="text" />
                 </Form.Group>
                 </Col>
               </Row>
@@ -90,13 +90,13 @@ export function ModalForm () {
                 <Col >
                 <Form.Group className="mb-3" controlId="email">
                   <Form.Label>Email</Form.Label>
-                  <Form.Control type="email"  />
+                  <Form.Control required type="email"  />
                 </Form.Group>
                 </Col>
                 <Col >
                 <Form.Group className="mb-3" controlId="phone">
                   <Form.Label>Telefono</Form.Label>
-                  <Form.Control type="number" />
+                  <Form.Control  required type="number" />
                 </Form.Group>
                 </Col>
               </Row>
@@ -104,7 +104,7 @@ export function ModalForm () {
                 <Col>
                   <Form.Group className="mb-3" controlId="argument">
                     <Form.Label>Motivo de consulta.</Form.Label>
-                    <Form.Control className='h-150' size='lg' as="textarea"/>
+                    <Form.Control required className='h-150' size='lg' as="textarea"/>
                   </Form.Group>
                 </Col>
               </Row>
