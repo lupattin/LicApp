@@ -6,9 +6,12 @@ export const HomeAboutMeContainer = styled.div`
     align-items: center;
     justify-content: center;
     width: 100vw; 
-    height: 100vh;
+    height: 130vh;
     text-align: center;
     margin-bottom: 700px;
+    @media (max-width: 425px) {
+          height: 170vh;
+        }
 `
 export const AboutMeContainer = styled.div`
     background-color:#575e79;
@@ -63,12 +66,12 @@ export const AboutMeTextContainer = styled.div `
 `
 export const AboutMeImgContainer = styled.div `
     width: 30%;
-    @media screen and (max-width: 425px){
-        width: 45%;
-
-    }
     @media screen and (max-width: 768px){
         width: 50%;
         
+    }
+    @media screen and (max-width: 425px){
+        width: 45%;
+
     }
 `
