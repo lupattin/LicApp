@@ -110,7 +110,6 @@ export function ModalForm () {
               </Row>
 
               <Container style={{display:"flex", justifyContent:"center", alignItems:"center", padding:"10px 0 0 0", height:"120px", flexDirection:"column"}}>
-
               
               <Alert key={"success"} variant={"success"} style={{display:alertSuccessState}}>
                Se ha enviado correctamente el mail. Te responderemos a la brevedad. 

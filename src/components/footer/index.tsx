@@ -24,7 +24,7 @@ export function FooterBox() {
                 <FooterImgLogo  className='footerImgLogo' ImgUrl={footerImgPhoto}></FooterImgLogo>
             </FooterImgContainer>
             <SocialMediaFooterContainter>
-                <IgPic src={igPic} alt="Picture of Facebook"  ImgUrl={igPic} Page={"https://www.instagram.com/"}></IgPic>
+                <IgPic src={igPic} alt="Picture of Facebook"  ImgUrl={igPic} Page={"https://www.instagram.com/psico.agustinascasso/"}></IgPic>
                 <LinkedinPic src={linkdinPic} alt="Picture of Linklin" ImgUrl={linkdinPic} Page={"https://ar.linkedin.com/in/agustina-scasso-a69a6b142"} ></LinkedinPic>
                 <WppPic src={whatsappPic} alt="Picture of Whatsapp" ImgUrl={whatsappPic} Page={"https://api.whatsapp.com/send?phone=5492944149524"}></WppPic>
             </SocialMediaFooterContainter>

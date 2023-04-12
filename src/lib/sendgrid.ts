@@ -5,7 +5,7 @@ export async function sendMail(formData){
     sgMail.setApiKey(process.env.SENDGRID_SECRET as any)  
  
     const msg = {
-      to: 'lupattin@gmail.com', // Change to your recipient
+      to: 'lic.agustinascasso@gmail.com', // Change to your recipient
       from: 'pattindev@gmail.com', // Change to your verified sender
       subject: 'Nuevo paciente',
       html: `

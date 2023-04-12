@@ -32,7 +32,7 @@ export function HomeBox() {
         <ParagraphHomePage onClick={handleShow} className={"animate__animated animate__fadeInLeft animate__delay-3s"} text={'COMENZÁ TU TRATAMIENTO'} />
       </HomeParagraphCointainer>
       <HomeLogoContainer>
-        <IgPic className="animate__animated animate__fadeInDown animate__delay-4s" ImgUrl={instagramPic} Page={"https://www.instagram.com/"}></IgPic>
+        <IgPic className="animate__animated animate__fadeInDown animate__delay-4s" ImgUrl={instagramPic} Page={"https://www.instagram.com/psico.agustinascasso/"}></IgPic>
         <LinkedinPic className="animate__animated animate__fadeInDown animate__delay-4s" ImgUrl={linkdinPic} Page={"https://ar.linkedin.com/in/agustina-scasso-a69a6b142"}></LinkedinPic>
         <WppPic className="animate__animated animate__fadeInDown animate__delay-4s" ImgUrl={whatsappPic} Page={"https://api.whatsapp.com/send?phone=5492944149524"}></WppPic>
       </HomeLogoContainer>
