@@ -32,7 +32,7 @@ export function ModalSendEmail({ show, handleClose }) {
       <Modal.Body>
         <ModalForm></ModalForm>
       </Modal.Body>
-      <p> La atencion es presencial en Bariloche o digital desde cualquier lugar. </p>
+      <p> La atención es presencial en Bariloche o digital desde cualquier lugar. </p>
     </Modal>
   );
 }
