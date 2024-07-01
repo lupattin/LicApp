@@ -6,7 +6,7 @@ export async function sendMail(formData){
  
     const msg = {
       to: 'lic.agustinascasso@gmail.com', // Change to your recipient
-      from: 'pattindev@gmail.com', // Change to your verified sender
+      from: 'lic.agustinascasso@gmail.com', // Change to your verified sender
       subject: 'Nuevo paciente',
       html: `
       <strong>
